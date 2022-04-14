@@ -1,0 +1,54 @@
+{
+  "db": "maindb/test_db.db",
+  "users": ["BRCPA","Jenny","Mona","Alistair","Carme","Edoardo","Niko","No user"],
+  "log_dir": "logs",
+  "backup_dir": "backupdb",
+  "max_logs": 50,
+  "max_backups": 10,
+  "ignore_tables": ["user_last_access"],
+  "editable_tables": ["tblParticipant", "tblCase", "tblProject", "tblSample", "tblFamily", "tblCohort", "tblFiles", "tblResults", "tblKnownGenesScreening", "tblResultsNotes", "tblFamilyNotes", "tblParticipantNotes", "tblCohortNotes", "tblPI", "tblParticipant_altIDs"],
+  "username_columns": {
+    "tblCase": "caseEditBy",
+    "tblParticipant": "participantEditBy",
+    "tblPI": "PIEditBy",
+    "tblSample": "sampleEditBy",
+    "tblProject": "projectEditBy",
+    "tblResult": "resultEditBy"
+  },
+  "map_columns": {
+    "tblCase": {
+      "caseID": "caseLocalID"
+    },
+    "tblParticipant": {
+      "participantID": "participantLocalID"
+    },
+    "tblPI": {
+      "PIId": "PIName"
+    },
+    "tblCohort": {
+      "cohortID": "cohortLocalID"
+    },
+    "tblFamily": {
+      "familyID": "familyLocalID"
+    },
+    "tblProject": {
+      "projectID": "projectAcronym"
+    }
+  },
+  "linked_tables": {
+    "tblParticipant": {
+      "tblFamily": {
+        "target_id": "familyID",
+        "linker_tbl": "tblParticipant2family",
+        "linker_source_col": "p2fParticipantID",
+        "linker_target_col": "p2fFamilyID"
+      },
+      "tblCohort": {
+        "target_id": "cohortID",
+        "linker_tbl": "tblParticipant2cohort",
+        "linker_source_col": "p2cParticipantID",
+        "linker_target_col": "p2cCohortID"
+      }
+    }
+  }
+}

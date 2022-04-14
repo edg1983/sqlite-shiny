@@ -1,0 +1,42 @@
+## 20211209_153307 - BRCPA
+TEMPLATE DOWNLOAD: templates/tblParticipant_template.tsv FOR TABLE tblParticipant
+## 20211209_153316 - BRCPA
+TEMPLATE DOWNLOAD: templates/tblCase_template.tsv FOR TABLE tblCase
+## 20211209_160247 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseWorkflowStatus, caseType, caseEditBy) VALUES ('010Aic001', '1', 'open', 'rare disease', 'BRCPA')
+## 20211209_160254 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseWorkflowStatus, caseType, caseEditBy) VALUES ('010Aic002', '0', 'open', 'rare disease', 'BRCPA')
+## 20211209_160322 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC001', '1', '1', '1', '2', 'EUR', 'BRCPA')
+## 20211209_160336 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC002', '1', '0', '0', '2', 'EUR', 'BRCPA')
+## 20211209_160346 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC003', '1', '0', '1', '1', 'EUR', 'BRCPA')
+## 20211209_160444 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('HPC1200', '2', '1', '2', '1', 'AFR', 'BRCPA')
+## 20211209_160851 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseWorkflowStatus, caseType, caseEditBy) VALUES ('010Aic001', '0', 'open', 'rare disease', 'BRCPA')
+## 20211209_160855 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseWorkflowStatus, caseType, caseEditBy) VALUES ('010Aic002', '0', 'open', 'rare disease', 'BRCPA')
+## 20211209_160859 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseWorkflowStatus, caseType, caseEditBy) VALUES ('010Aic003', '0', 'open', 'rare disease', 'BRCPA')
+## 20211209_161126 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC001', '1', '1', '2', '1', 'EUR', 'BRCPA')
+## 20211209_161135 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC002', '1', '0', '1', '1', 'EUR', 'BRCPA')
+## 20211209_161141 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC003', '1', '0', '1', '2', 'EUR', 'BRCPA')
+## 20211209_161154 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC004', '2', '1', '2', '1', 'AFR', 'BRCPA')
+## 20211209_161254 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00001', '1', 'blood', 'DNA', '1', 'BRC PA')
+## 20211209_161307 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00002', '1', 'blood', 'RNA', '1', 'BRC PA')
+## 20211209_161316 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00003', '2', 'saliva', 'DNA', '1', 'BRC PA')
+## 20211209_161326 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00004', '3', 'saliva', 'DNA', '1', 'BRC PA')
+## 20211209_161336 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00005', '3', 'plasma', 'DNA', '1', 'BRC PA')
+## 20211209_161347 - BRCPA
+INSERT INTO tblSample(sampleLocalID, sampleParticipantID, sampleBioSource, sampleType, sampleAvailable, participantEditBy) VALUES ('G00006', '4', 'cultured cells', 'RNA', '1', 'BRC PA')

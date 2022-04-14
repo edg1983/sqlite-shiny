@@ -1,0 +1,2 @@
+participantLocalID	participantCaseID	participantProband	participantAffected	participantSex	participantEthnicity	participantEditBy
+TEXT UNIQUE NOT NULL	INTEGER NOT NULL	INTEGER NOT NULL	INTEGER NOT NULL	INTEGER NOT NULL	TEXT	TEXT NOT NULL

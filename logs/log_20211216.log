@@ -1,0 +1,2 @@
+## 20211216_133523 - BRCPA
+INSERT INTO tblParticipant(participantLocalID, participantCaseID, participantProband, participantAffected, participantSex, participantEthnicity, participantEditBy) VALUES ('BRC005', '2', '0', '2', '0', 'AFR', 'BRCPA')

@@ -1,0 +1,12 @@
+## 20211207_121228 - BRCPA
+INSERT INTO tblCase(caseLocalID, caseConsanguineity, caseAffected, caseWorkflowStatus, caseType, caseEditBy) VALUES ('mynewtest', '0', '0', 'open', 'cancer', 'BRCPA')
+## 20211207_125533 - BRCPA
+INSERT INTO tblCase (caseLocalID, caseConsanguineity, caseAffected, caseWorkflowStatus, caseType, caseEditBy, caseEditDate) VALUES ('mytest3', '0', '0', 'open', 'cancer', 'BRCPA', '2021-12-06 16:05:12'),('mytest4', '0', '0', 'open', 'cancer', 'BRCPA', '2021-12-06 16:05:19'),('mytest5', '0', '0', 'open', 'cancer', 'BRCPA', '2021-12-06 16:05:19')
+## 20211207_144205 - BRCPA
+DELETE FROM 'tblCase' WHERE rowid IN ('1', '2')
+## 20211207_144555 - BRCPA
+DELETE FROM 'tblCase' WHERE rowid IN ('3')
+## 20211207_153846 - BRCPA
+DELETE FROM 'tblCase' WHERE rowid IN ('5')
+## 20211207_153855 - BRCPA
+DELETE FROM 'tblCase' WHERE rowid IN ('6')

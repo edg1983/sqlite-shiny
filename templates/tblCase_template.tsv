@@ -1,0 +1,2 @@
+caseLocalID	caseConsanguineity	caseWorkflowStatus	caseType	caseEditBy
+TEXT UNIQUE NOT NULL	INTEGER	TEXT	TEXT NOT NULL	TEXT NOT NULL
